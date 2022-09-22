@@ -1,0 +1,154 @@
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header_logo{
+    width: 100px;
+    object-fit: contain;
+    /* obj-fit: 이미지가 망가지지 않게 비율을 유지하면서 컨테이너 크기에 맞추기 */
+    margin: 0 20px;
+    margin-top: 12px;
+}
+
+.header_deliver{
+    margin-left: 14px;
+    border: transparent solid 2px;   
+    padding-left: 18px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+}
+
+.header_deliver_option{
+    display: flex;
+    flex-direction: column;
+    margin:0 10px;
+    color:white;
+}
+
+.header_deliver:hover{
+    border: #ddd solid 2px;   
+}
+
+.header_deliver .header_optionLineTwo{
+    position: relative;
+}
+
+.header_deliverIcon{
+    position: absolute;
+    left: -24px;
+    top: 0;
+}
+
+#text{
+    margin-top: 3px;
+    margin-bottom: -2px;
+}
+
+.header_search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.header_searchInput{
+    height: 14px;
+    padding: 10px;
+    border: none;
+    width: 83%;
+    margin-left: 30px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.header_searchIcon{
+    background-color: #ffa41c;
+    padding: 5px;
+    height: 22px;
+    border-radius: 0 5px 5px 0;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    margin-right: 10px;
+}
+
+
+.header_option{
+    display: flex;
+    flex-direction: column;
+    margin:0 10px;
+    color:white;
+    box-sizing: border-box;
+}
+
+
+#userlogin{
+    margin-top: -5px;
+}
+
+.header_optionLineOne{
+    color: #ddd;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.header_optionLineTwo{
+    font-weight: bold;
+}
+
+.header_optionBasket{
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 0 10px;
+}
+
+.header_optionBasketIcon{
+    margin-top: 4px;
+
+}
+
+.css-tzssek-MuiSvgIcon-root{
+    width: 1.3em;
+    height: 1.3em;
+}
+
+.header_optionBasket_count{
+    position: absolute;
+    background-color: #ffa41c;
+    border: none;
+    border-radius: 50%;
+    top: -1px;
+    left: 10px;
+    width: 16px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.header_optionBasket_txt{
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.login_link{
+    text-decoration: none;
+    color: white;
+}
+
+.order_link{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}

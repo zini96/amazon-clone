@@ -1,0 +1,90 @@
+.orders{
+    background-color: white;
+    padding-bottom: 40px;
+}
+.orders_con{
+    width: 70%;
+    margin: 0 auto;
+}
+.payment_topImg{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    
+}
+.div1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 30px 0 40px 0;
+}
+
+.div1>img{
+    width: 18%;
+}
+
+.div1>hr{
+    height: 3px;
+    border: none;
+}
+
+#hr1{
+    height: 3px;
+    background-color: #e78a2f;
+    width: 80%;
+}
+
+#hr3{
+    background-color: #e78a2f;
+    position: absolute;
+    height: 20px;
+    width: 3px;
+    right: 0;
+}
+#icon4{
+    position: absolute;
+    right: 0%;
+    transform: translateX(-3px);
+}
+.div2{
+    width: 68%;
+    display: flex;
+    justify-content: space-around;
+    right: 10%;
+    top: 135px;
+    align-items: center;
+    position: absolute;
+    
+    font-size: 12px;
+    font-weight: 500;
+    color: #e78a2f;
+}
+
+.orders_order_2{
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 34px;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+}
+
+.gologin_btn{
+    background-image: linear-gradient(to bottom, #f8f8f8 0%, #eeeff1  51%, #eff1f3  100%);
+    margin-top: 30px;
+    width: 200px;   
+    box-shadow: 0 0 5px #eee;
+    border-radius: 2px;
+    border: #aaa 1px solid;
+    line-height: 28px;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.gologin_btn:hover{
+    background-image: linear-gradient(to bottom, #eff1f3 0%, #d4d6da  51%,  #dadce1 100%) ;
+}
+

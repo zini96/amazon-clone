@@ -1,0 +1,237 @@
+.payment{
+    background-color: white;
+}
+
+.payment_container{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.payment_topImg{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.div1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 30px 0 40px 0;
+}
+
+.div1>img{
+    width: 18%;
+}
+
+.div1>hr{
+    height: 3px;
+    border: none;
+}
+
+#hr1{
+    height: 3px;
+    background-color: #e78a2f;
+    width: 40%;
+}
+#hr2{
+    width: 40%;
+    height: 3px;
+    background-color: #ddd;
+}
+
+#hr3{
+    background-color: #ddd;
+    position: absolute;
+    height: 20px;
+    width: 3px;
+    right: 0;
+}
+#icon4{
+    position: absolute;
+    right: 40%;
+    transform: translateX(24px);
+}
+.div2{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    right: 10%;
+    top: 135px;
+    align-items: center;
+    position: absolute;
+}
+
+.div2>p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #e78a2f;
+}
+
+.div2>p:last-child{
+    color: black;
+}
+
+
+.payment_backbtn{
+    background-image: linear-gradient(to bottom, #f9e7ba 0%, #f3cc6d  51%, #f0c14b  100%);
+    margin: 0 0 20px 5% ;
+    width: 90%;
+    transition: 0.5s;      
+    box-shadow: 0 0 5px #eee;
+    border-radius: 2px;
+    border: #aaa 1px solid;
+    padding:8px 0 8px 0;
+}
+
+.payment_backbtn:hover{
+    background-image: linear-gradient(to bottom, #fde5a9 0%, #f5c459  41%, #fbaa28  100%);
+    border: rgb(136, 136, 136) 1px solid;
+}
+.payment_backbtn>span{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.payment_section{
+    border-top: 3px solid #ddd;
+    padding-top: 20px;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.payment_title{
+    margin-bottom: 20px;
+    flex: 0.2;
+}
+
+.payment_address, .payment_items, .payment_details{
+    flex: 0.8;
+}
+
+
+
+.payment_address, .payment_details{
+    padding-left: 30px;
+}
+
+.payment_form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.telDiv{
+    display: flex;
+    align-items: baseline;
+}
+.telDiv>input{
+    width: 100px;
+    margin: 5px 0 10px 0;
+    border-radius: 3px;
+    line-height: 24px;
+    outline: none;
+    border: 1px solid;
+    padding: 0 0 0 5px;
+}
+.payment_form>input,
+.payment_form>select,
+.payment_form>select>option{
+    margin: 5px 0 10px 0;
+    border-radius: 3px;
+    line-height: 24px;
+    outline: none;
+    border: 1px solid;
+    padding: 0 0 0 5px;
+    width: 95%;
+}
+
+#add1{
+    margin-bottom: 3px;
+}
+
+form>select{
+    height: 28px;
+}
+
+.payment_total{
+    padding-bottom: 30px;
+    margin-top: 10px;
+    border-top: 5px solid rgb(80, 80, 80);
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+/* #a5a5f3 */
+.payment_total > button{
+    background-image: linear-gradient(to bottom, #d5d5f0 0%,  #a5a5f3 51%, #8768bf  100%);
+    border-radius: 2px;
+    width: 25%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 30px;
+    border-color: #a5a5f3 #8768bf #61dafb;
+    cursor: pointer;
+}
+
+.payment_total > button:disabled{
+    opacity: 0.2;
+    cursor: not-allowed;
+
+}
+
+.payment_total > button:hover{
+    background-image: linear-gradient(to bottom, #a5a5f3 0%,  #7373c0 51%, #795fab  100%);
+}
+
+.payment_form>button{
+    margin-right: 20px;
+    font-size: 18px;
+    line-height: 35px;
+
+}
+
+/*  */
+
+.save_add{
+    border: 2px solid #eee;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 20px 40px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.save_add>p{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.save_add>p:hover{
+    color: #0066c0;
+}
+
+.saveadd_div{
+    display: flex;
+}
+
+.spandiv{
+    flex: 0.3;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.infodiv{
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+}

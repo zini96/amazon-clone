@@ -1,0 +1,27 @@
+.best_p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px 10px;
+    max-height: 200px;
+    min-height: 50px;
+    background-color: transparent;
+    z-index: 10;
+    width: 35%;
+}
+
+.best_info{
+    padding: 5px 0;
+}
+
+.best_name{
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+.best_p > img{
+    max-height: 100px;
+    width: 100%;
+    object-fit: contain;
+}

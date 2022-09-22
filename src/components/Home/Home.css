@@ -1,0 +1,29 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0 auto;
+    max-width: 1500px;
+    margin-bottom: 40px;
+
+}
+.home_container{
+    margin-top: -220px;
+}
+.home_row{
+    display: flex;
+    z-index: 1;
+    margin: 0 10px;
+}
+
+.home_row_ver2{
+    box-sizing: border-box;
+    margin: 10px 20px 20px 20px;
+    background-color: white;
+}
+
+.ver2_inner{
+    padding: 10px 20px 10px 10px;
+    overflow: hidden;
+}
+
